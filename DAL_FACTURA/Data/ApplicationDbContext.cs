@@ -21,5 +21,7 @@ namespace DAL_FACTURA.Data
         }
 
         public DbSet<Factura> Facturas { get; set; }
+
+        public DbSet<Producto> Productos { get; set; }
     }
 }
